@@ -1,0 +1,14 @@
+# All logs go to logs/app.log; never committed.
+logs/
+
+# Real environment values stay local; .env.example lists the names.
+.env
+.env.*
+!.env.example
+
+# Task worktrees made by ./worktree.sh.
+.worktrees/
+
+# OS junk.
+.DS_Store
+Thumbs.db
